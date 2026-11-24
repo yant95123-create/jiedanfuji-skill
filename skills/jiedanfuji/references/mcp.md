@@ -3,7 +3,8 @@
 - 地址：`https://mcp.aurapilot.cn/mcp`
 - 协议：Streamable HTTP
 - 认证：请求头 `Authorization: Bearer jdfj_...`
-- 密钥在接单副驾电脑端「开放平台」创建，完整内容只显示一次。
+- 注册登录：https://jdfj.aurapilot.cn/todo
+- 密钥在登录后的「开放平台 → MCP 与密钥」创建，完整内容只显示一次。
 
 地址不要加结尾斜杠。`Bearer` 和密钥之间有一个空格。请求头的名字是 `Authorization`，不要把密钥本身当成字段名。
 

@@ -1,6 +1,6 @@
 ---
 name: jiedanfuji
-description: 使用接单副驾的积分、AI 生图、任务状态和作品列表。用户要求用接单副驾出图、查积分或取回生成结果时使用。
+description: 使用接单副驾的积分、AI 生图、任务状态和作品列表。用户要求用接单副驾出图、查积分、注册账号或创建密钥时使用。
 ---
 
 # 接单副驾
@@ -8,6 +8,13 @@ description: 使用接单副驾的积分、AI 生图、任务状态和作品列�
 通过已经配置好的 MCP 服务 `jiedanfuji` 调用。地址是 `https://mcp.aurapilot.cn/mcp`。认证用用户自己的 Bearer API Key。不要在仓库、提示词或日志里写下完整密钥。
 
 如果这个 MCP 还没连上，先按 `references/mcp.md` 配置，不要改用别的画图工具冒充接单副驾。
+
+## 还没有账号或密钥
+
+告诉用户这两步，不要替用户编造密钥：
+
+1. 打开 https://jdfj.aurapilot.cn/todo 注册并登录。
+2. 在电脑端「开放平台 → MCP 与密钥」创建 API Key，再按 `references/mcp.md` 填进 MCP。完整密钥只显示一次。
 
 ## 工具
 

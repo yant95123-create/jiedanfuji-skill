@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://aurapilot.cn">接单副驾</a>
+  <a href="https://jdfj.aurapilot.cn/todo">注册并登录</a>
   ·
   <a href="skills/jiedanfuji/SKILL.md">SKILL.md</a>
   ·
@@ -18,6 +18,12 @@
 </p>
 
 Skill 只告诉 Agent 何时调用、按什么顺序调用。密钥留在各客户端的 MCP 配置里，不要写进本仓库。
+
+## 注册和密钥
+
+1. 打开 [https://jdfj.aurapilot.cn/todo](https://jdfj.aurapilot.cn/todo) 注册并登录。
+2. 登录后，左侧进入「开放平台」，在「MCP 与密钥」里创建一个 API Key。完整密钥只显示一次，马上复制。
+3. 把密钥填进 MCP 配置的 `Authorization: Bearer jdfj_...`。没有账号和密钥时，Skill 装上了也调不通。
 
 ## 现在能做的
 
@@ -32,7 +38,7 @@ Skill 只告诉 Agent 何时调用、按什么顺序调用。密钥留在各客�
 
 ## 安装
 
-先在接单副驾电脑端「开放平台」创建 API Key，并按 [MCP 配置](skills/jiedanfuji/references/mcp.md) 连上 `jiedanfuji`。Skill 不另发一把密钥。
+先完成上面的注册和密钥，再按 [MCP 配置](skills/jiedanfuji/references/mcp.md) 连上 `jiedanfuji`。Skill 不另发一把密钥。
 
 WorkBuddy：
 
